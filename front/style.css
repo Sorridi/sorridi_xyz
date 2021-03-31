@@ -1,20 +1,20 @@
 a:link {
-    color: white;
+    color: green;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:visited {
-    color: white;
+    color: green;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
-    color: white;
+    color: greenyellow;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: white;
+    color: greenyellow;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -45,44 +45,13 @@ a:active {
 .r {
     text-align: right;
 }
-.b {
-    background-color: #191c1f;
+body {
+    background: #191c1f;
+    color: rgba(255, 255, 255, 0.918);
+    float: left;
+    width: 85%;
+    padding: 0 4% 0%;
 }
 .f {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.clw {
-    color: white;
-}
-.clg {
-    color: gray;
-}
-.clgr {
-    color: green;
-}
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #73b531 hsla(0,0%,100%,.1);
-}
-.loc-caption:before {
-    content: attr(title);
-    display: block;
-}
-.cp:before {
-    content: "I'm available for Minecraft-Server plugin commissions on Telegram: @Sorridi_xyz / Discord: Sorridi#4432 / Email: reallygud at protonmail dot com";
-    font-size: 12px;
-    color: gray;
-    float: left;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    text-align: center;
-    bottom: 0px;
-    width: 100%;
-    white-space: pre-line;
-}
-.dg {
-    color: rgb(0, 129, 0);
-}
-.bl {
-    color: rgb(50, 50, 252);
 }

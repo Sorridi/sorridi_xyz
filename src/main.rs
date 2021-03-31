@@ -60,13 +60,7 @@ fn main(){
 
     println!("Pages and Assets has been loaded.");
 
-    let config = Config::build(Environment::Production)
-    .address("0.0.0.0")
-    .port(80)
-    .workers(2)
-    .finalize().unwrap();
-
-    rocket::custom(config).mount("/", routes!
+    rocket::ignite().mount("/", routes!
     [
         asset_css, assets, asset_favicon, page_home, pages
     ])
