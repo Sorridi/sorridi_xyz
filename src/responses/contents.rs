@@ -16,7 +16,7 @@ impl<T> Storage<T>
         }
     }
 
-    pub fn push(&mut self, identifier: &'a str, input: T)
+    pub fn push(&mut self, identifier: &str, input: T)
     {
         self.contents.insert(identifier.to_owned(), input);
     }

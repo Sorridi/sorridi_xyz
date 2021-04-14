@@ -1,0 +1,57 @@
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.f45 {
+    font-size: 45px;
+}
+.f35 {
+    font-size: 35px;
+}
+.f30 {
+    font-size: 30px;
+}
+.f25 {
+    font-size: 25px;
+}
+.f20 {
+    font-size: 20px;
+}
+.f15 {
+    font-size: 15px;
+}
+.c {		
+    text-align: center;
+}
+.l {
+    text-align: left;
+}
+.r {
+    text-align: right;
+}
+body {
+    background: #191c1f;
+    color: rgba(255, 255, 255, 0.918);
+    float: left;
+    width: 85%;
+    padding: 0 4% 0%;
+}
+.f {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
