@@ -22,3 +22,4 @@ pub use std::path::Path;
 pub use std::collections::HashMap;
 pub use std::ops::{Deref, DerefMut};
 pub use rocket::State;
+pub use std::str::FromStr;
