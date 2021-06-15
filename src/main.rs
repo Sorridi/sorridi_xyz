@@ -109,18 +109,18 @@ fn main()
 
         for elem in EXT_ASSETS.iter()
         {
-            if name.ends_with(elem)
+            if !name.ends_with(elem)
             {
                 continue;
             }
-            assets.push(&*name.trim_end_matches(elem), read_bytes(&*path));
+            assets.push(&*name, read_bytes(&*path));
             println!("| ^ as asset.");
         }
     }
 
     rocket::ignite().mount("/", routes!
     [
-        asset_css, assets, asset_favicon, pages
+        asset_css, assets, pages, home_page
     ])
         .manage(assets)
         .manage(pages)
